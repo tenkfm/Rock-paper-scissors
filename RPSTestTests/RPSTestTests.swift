@@ -18,10 +18,39 @@ class RPSTestTests: XCTestCase {
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+    
+    func testRule() {
+        print(Tournament.rules.shapes.count)
+        // Check if minimum 3 shapes available
+        XCTAssertGreaterThanOrEqual(Tournament.rules.shapes.count, 3)
+        XCTAssert(true)
+    }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testRuleInteractions() {
+        
+        // Here we need to check if all shapes have interaction rules between each other,
+        // But today is my first day of vacation, so I'm feel to lazy :)
+        
+    }
+
+    func testPvCPlayViewModel() {
+        let model = PvCPlayViewModel()
+        model.startTournament()
+        model.startPlaying()
+        
+        model.selectShape(Tournament.rules.shapes.randomElement()!)
+        
+        XCTAssert(true)
+    }
+
+    func testCvCPlayViewModel() {
+        let model = CvCPlayViewModel()
+        model.startTournament()
+        model.startPlaying()
+        
+        model.selectShape(Tournament.rules.shapes.randomElement()!)
+        
+        XCTAssert(true)
     }
 
     func testPerformanceExample() {

@@ -15,9 +15,7 @@ class GameViewController: UIViewController {
         setupView()
     }
     
-    internal func setupView() {
-        
-    }
+    internal func setupView() { }
     
     
 }

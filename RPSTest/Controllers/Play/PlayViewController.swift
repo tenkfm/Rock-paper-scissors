@@ -15,8 +15,6 @@ class PlayViewController: AnimatingViewController {
         return nil
     }
     
-    //MARK: - Private members    
-    
     //MARK: - Public members
     public var viewModel: PlayViewModel!
     
@@ -53,6 +51,7 @@ class PlayViewController: AnimatingViewController {
         }
     }
     
+    //MARK: - Private members
     private func makeShapeButton(_ shape: Shape) ->UIButton {
         let button = ShapeButton()
         button.imageView?.contentMode = .scaleAspectFit

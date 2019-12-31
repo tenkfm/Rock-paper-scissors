@@ -9,7 +9,16 @@
 import Foundation
 
 class Tournament {
+    
+    /**
+     Rules default config plist file
+     */
     public static let CONFIG_FILE_NAME = "rules"
+
+    /**
+     Tournamen rules.
+     Rule is a list of shapes and its interactions.
+     */
     public static var rules: Rules {
         let configPath = Bundle.main.path(forResource: Tournament.CONFIG_FILE_NAME, ofType: "plist")!
         guard let data = FileManager.default.contents(atPath: configPath)

@@ -9,7 +9,19 @@
 import Foundation
 
 protocol GameDelegate: AnyObject {
+    
+    /**
+     Start game delegate
+     - Parameter game: Current game instance
+     */
     func gameStarted(_ game: Game)
+
+    /**
+     Game finished
+     - Parameters
+        - game: Current game instance
+        - winner: Winner player instance, nil is draw
+     */
     func gameFinished(_ game: Game, winner: Player?)
 }
 
@@ -24,6 +36,12 @@ class Game {
     private(set) var winner: Player?
     
     //MARK: - Constructor
+
+    /**
+     Game constructor
+     - Parameter players: game players, min. 2
+     */
+
     convenience init(players: [Player]) {
         assert(players.count > 1, "You can't start game with less than 2 players")
         

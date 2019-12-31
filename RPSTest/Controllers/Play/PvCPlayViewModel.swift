@@ -26,7 +26,6 @@ class PvCPlayViewModel: PlayViewModel {
         self.tournament = Tournament()
         self.tournament?.players = [Human(id: 1),
                                     AI(id: 2)]
-
     }
     
     func setupGame(views: [PlayerView]) {

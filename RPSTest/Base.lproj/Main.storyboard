@@ -23,7 +23,7 @@
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="oBQ-KP-NBP">
-                                <rect key="frame" x="179.99999999999997" y="816" width="234.00000000000009" height="80"/>
+                                <rect key="frame" x="180" y="816" width="234" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="oBQ-KP-NBP" secondAttribute="height" multiplier="196:67" id="9zw-8P-wGV"/>
                                     <constraint firstAttribute="height" constant="80" id="LVp-Bd-b9r"/>
@@ -117,7 +117,7 @@
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="9hR-so-drk">
-                                <rect key="frame" x="179.99999999999997" y="816" width="234.00000000000009" height="80"/>
+                                <rect key="frame" x="180" y="816" width="234" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="9hR-so-drk" secondAttribute="height" multiplier="196:67" id="DS3-3w-ALU"/>
                                     <constraint firstAttribute="height" constant="80" id="mFR-3n-XdG"/>

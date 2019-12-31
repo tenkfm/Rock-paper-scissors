@@ -27,15 +27,14 @@ class StartViewController: AnimatingViewController {
     @IBOutlet weak var playerComputerButton: UIButton!
     @IBOutlet weak var computerComputerButton: UIButton!
     
-    //MARK: - life cycle
+    //MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-
-    
     //MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Assign models for different game type
         if segue.identifier == StartViewController.SEGUE_CVC {
             (segue.destination as! PlayViewController).viewModel = CvCPlayViewModel()
         } else if segue.identifier == StartViewController.SEGUE_PVC {

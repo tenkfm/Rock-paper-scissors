@@ -11,11 +11,29 @@
 		CA7BB84423B94E43006B3EC9 /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7BB84223B94E43006B3EC9 /* Tournament.swift */; };
 		CA7BB84623B955F8006B3EC9 /* ShapeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7BB84523B955F8006B3EC9 /* ShapeButton.swift */; };
 		CA7BB84723B955F8006B3EC9 /* ShapeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7BB84523B955F8006B3EC9 /* ShapeButton.swift */; };
+		CA7BB84823BB5EDC006B3EC9 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCD023B8C71A008DEBDD /* StartViewModel.swift */; };
+		CA7BB84923BB5EDE006B3EC9 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCD023B8C71A008DEBDD /* StartViewModel.swift */; };
+		CA7BB84B23BB5EE2006B3EC9 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCE423B8F161008DEBDD /* PlayerView.swift */; };
+		CA7BB84C23BB5EE5006B3EC9 /* ShapeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7BB84523B955F8006B3EC9 /* ShapeButton.swift */; };
+		CA7BB84D23BB5EE8006B3EC9 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF8471523B8BD9600D814DA /* StartViewController.swift */; };
+		CA7BB84E23BB5EED006B3EC9 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCD723B8DC46008DEBDD /* PlayViewController.swift */; };
+		CA7BB84F23BB5EF1006B3EC9 /* AnimatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCD323B8C80B008DEBDD /* AnimatingViewController.swift */; };
+		CA7BB85023BB5EF1006B3EC9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCCB23B8C6B9008DEBDD /* GameViewController.swift */; };
+		CA7BB85123BB5EF2006B3EC9 /* PlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCDA23B8DC7C008DEBDD /* PlayViewModel.swift */; };
+		CA7BB85223BB5EF2006B3EC9 /* PvCPlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCDD23B8DE2C008DEBDD /* PvCPlayViewModel.swift */; };
+		CA7BB85323BB5EF2006B3EC9 /* CvCPlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCE023B8DEBC008DEBDD /* CvCPlayViewModel.swift */; };
+		CA7BB85423BB5EF5006B3EC9 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCF823B93C40008DEBDD /* Game.swift */; };
+		CA7BB85523BB5EF5006B3EC9 /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7BB84223B94E43006B3EC9 /* Tournament.swift */; };
+		CA7BB85623BB5EF9006B3EC9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCEF23B93BB3008DEBDD /* Player.swift */; };
+		CA7BB85723BB5EF9006B3EC9 /* AI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCF223B93BC6008DEBDD /* AI.swift */; };
+		CA7BB85823BB5EF9006B3EC9 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCF523B93BE2008DEBDD /* Human.swift */; };
+		CA7BB85923BB5EF9006B3EC9 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBD0323B93FE4008DEBDD /* Shape.swift */; };
+		CA7BB85A23BB5EF9006B3EC9 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBD0623B943CD008DEBDD /* Rules.swift */; };
+		CA7BB85B23BB5F13006B3EC9 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCEB23B8FB81008DEBDD /* UIView.swift */; };
 		CABDBCCC23B8C6B9008DEBDD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCCB23B8C6B9008DEBDD /* GameViewController.swift */; };
 		CABDBCCD23B8C6B9008DEBDD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCCB23B8C6B9008DEBDD /* GameViewController.swift */; };
 		CABDBCCE23B8C6DD008DEBDD /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF8471523B8BD9600D814DA /* StartViewController.swift */; };
 		CABDBCD123B8C71A008DEBDD /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCD023B8C71A008DEBDD /* StartViewModel.swift */; };
-		CABDBCD223B8C71A008DEBDD /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCD023B8C71A008DEBDD /* StartViewModel.swift */; };
 		CABDBCD423B8C80B008DEBDD /* AnimatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCD323B8C80B008DEBDD /* AnimatingViewController.swift */; };
 		CABDBCD523B8C80B008DEBDD /* AnimatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCD323B8C80B008DEBDD /* AnimatingViewController.swift */; };
 		CABDBCD823B8DC46008DEBDD /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDBCD723B8DC46008DEBDD /* PlayViewController.swift */; };
@@ -432,16 +450,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA7BB84423B94E43006B3EC9 /* Tournament.swift in Sources */,
+				CA7BB84923BB5EDE006B3EC9 /* StartViewModel.swift in Sources */,
 				CABDBCDF23B8DE2C008DEBDD /* PvCPlayViewModel.swift in Sources */,
 				CABDBCDC23B8DC7C008DEBDD /* PlayViewModel.swift in Sources */,
+				CA7BB85023BB5EF1006B3EC9 /* GameViewController.swift in Sources */,
 				CABDBCF423B93BC6008DEBDD /* AI.swift in Sources */,
+				CA7BB84D23BB5EE8006B3EC9 /* StartViewController.swift in Sources */,
 				CABDBCFA23B93C40008DEBDD /* Game.swift in Sources */,
 				CAF8472923B8BD9C00D814DA /* RPSTestTests.swift in Sources */,
+				CA7BB84E23BB5EED006B3EC9 /* PlayViewController.swift in Sources */,
+				CA7BB84B23BB5EE2006B3EC9 /* PlayerView.swift in Sources */,
 				CABDBD0523B93FE4008DEBDD /* Shape.swift in Sources */,
 				CABDBCE223B8DEBC008DEBDD /* CvCPlayViewModel.swift in Sources */,
+				CA7BB85B23BB5F13006B3EC9 /* UIView.swift in Sources */,
 				CABDBCF123B93BB3008DEBDD /* Player.swift in Sources */,
+				CA7BB84C23BB5EE5006B3EC9 /* ShapeButton.swift in Sources */,
+				CA7BB84F23BB5EF1006B3EC9 /* AnimatingViewController.swift in Sources */,
 				CABDBD0823B943CD008DEBDD /* Rules.swift in Sources */,
-				CABDBCD223B8C71A008DEBDD /* StartViewModel.swift in Sources */,
 				CABDBCF723B93BE2008DEBDD /* Human.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,13 +475,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA7BB85523BB5EF5006B3EC9 /* Tournament.swift in Sources */,
 				CABDBCCE23B8C6DD008DEBDD /* StartViewController.swift in Sources */,
 				CA7BB84723B955F8006B3EC9 /* ShapeButton.swift in Sources */,
+				CA7BB85123BB5EF2006B3EC9 /* PlayViewModel.swift in Sources */,
+				CA7BB85823BB5EF9006B3EC9 /* Human.swift in Sources */,
+				CA7BB85423BB5EF5006B3EC9 /* Game.swift in Sources */,
+				CA7BB85323BB5EF2006B3EC9 /* CvCPlayViewModel.swift in Sources */,
 				CABDBCD923B8DC46008DEBDD /* PlayViewController.swift in Sources */,
+				CA7BB85223BB5EF2006B3EC9 /* PvCPlayViewModel.swift in Sources */,
 				CABDBCCD23B8C6B9008DEBDD /* GameViewController.swift in Sources */,
+				CA7BB84823BB5EDC006B3EC9 /* StartViewModel.swift in Sources */,
 				CABDBCED23B8FB81008DEBDD /* UIView.swift in Sources */,
 				CABDBCE623B8F161008DEBDD /* PlayerView.swift in Sources */,
+				CA7BB85923BB5EF9006B3EC9 /* Shape.swift in Sources */,
 				CAF8473423B8BD9C00D814DA /* RPSTestUITests.swift in Sources */,
+				CA7BB85723BB5EF9006B3EC9 /* AI.swift in Sources */,
+				CA7BB85A23BB5EF9006B3EC9 /* Rules.swift in Sources */,
+				CA7BB85623BB5EF9006B3EC9 /* Player.swift in Sources */,
 				CABDBCD523B8C80B008DEBDD /* AnimatingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
