@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>shapes</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>rock</string>
+			<key>title</key>
+			<string>Rock</string>
+			<key>asset</key>
+			<string>rock</string>
+			<key>rules</key>
+			<dict>
+				<key>rock</key>
+				<integer>0</integer>
+				<key>paper</key>
+				<integer>-1</integer>
+				<key>scissors</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>paper</string>
+			<key>title</key>
+			<string>Paper</string>
+			<key>asset</key>
+			<string>paper</string>
+			<key>rules</key>
+			<dict>
+				<key>rock</key>
+				<integer>1</integer>
+				<key>paper</key>
+				<integer>0</integer>
+				<key>scissors</key>
+				<integer>-1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>scissors</string>
+			<key>title</key>
+			<string>Scissors</string>
+			<key>asset</key>
+			<string>scissors</string>
+			<key>rules</key>
+			<dict>
+				<key>rock</key>
+				<integer>-1</integer>
+				<key>paper</key>
+				<integer>1</integer>
+				<key>scissors</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
